@@ -12,11 +12,9 @@ func Homepage(c *fiber.Ctx) error {
 }
 
 func GetGetAllGames(c *fiber.Ctx) error {
-	gem, err := adawong.GetAllGamme()
+	ps, err := adawong.GetAllGamme()
 	if err != nil {
-
-		return c.Status(fiber.StatusInternalServerError).SendString(err.Error())
+		return err
 	}
-
-	return c.JSON(gem)
+	return c.JSON(ps)
 }
