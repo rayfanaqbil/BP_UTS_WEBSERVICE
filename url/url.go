@@ -1,7 +1,7 @@
 package url
 
 import (
-	"iteung/controller"
+	"github.com/rayfanaqbil/BP_UTS_Webservice/controller"
 
 	"github.com/gofiber/fiber/v2"
 )
@@ -16,5 +16,7 @@ func Web(page *fiber.App) {
 	page.Patch("/", controller.Sink)
 	page.Delete("/", controller.Sink)
 	page.Options("/", controller.Sink)
+
+	page.Get("/games", controller.GetGetAllGames)
 
 }
