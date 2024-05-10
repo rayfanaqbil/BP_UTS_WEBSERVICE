@@ -80,8 +80,8 @@ github.com/pkg/browser v0.0.0-20240102092130-5ac0b6a4141c/go.mod h1:7rwL4CYBLnjL
 github.com/pkg/errors v0.9.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
-github.com/rayfanaqbil/BE_UTS_Webservice v0.0.3-0.20240510030441-da897a73a486 h1:jx4Uw930w8hf9eL1GGaLzGcTkV48B9Uz+Rz5GJzkA4w=
-github.com/rayfanaqbil/BE_UTS_Webservice v0.0.3-0.20240510030441-da897a73a486/go.mod h1:uNlaoQdeyw7NfLiABIluQqaLalMWN7URnmNsKD4Oozk=
+github.com/rayfanaqbil/BE_UTS_Webservice v0.0.3-0.20240510072020-1e6c0e7adce9 h1:kTCCbSclI+i4zMQlY+dJRL6BswaAitKJITZw7iv3UDQ=
+github.com/rayfanaqbil/BE_UTS_Webservice v0.0.3-0.20240510072020-1e6c0e7adce9/go.mod h1:uNlaoQdeyw7NfLiABIluQqaLalMWN7URnmNsKD4Oozk=
 github.com/rivo/uniseg v0.2.0/go.mod h1:J6wj4VEh+S6ZtnVlnTBMWIodfgj8LQOQFoIToxlJtxc=
 github.com/rivo/uniseg v0.4.7 h1:WUdvkW8uEhrYfLC4ZzdpI2ztxP1I582+49Oc5Mq64VQ=
 github.com/rivo/uniseg v0.4.7/go.mod h1:FN3SvrM+Zdj16jyLfmOkMNblXMcoc8DfTHruCPUcx88=
