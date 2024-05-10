@@ -15,3 +15,11 @@ func GetGetAllGames(c *fiber.Ctx) error {
 	ps := adawong.GetAllDataGames()
 	return c.JSON(ps)
 }
+
+func GetGameByTitle(c *fiber.Ctx) error {
+    title := c.Query("title")
+
+    game := adawong.GetDataByTitle(title)
+
+    return c.JSON(game)
+}

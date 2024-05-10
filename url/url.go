@@ -18,5 +18,6 @@ func Web(page *fiber.App) {
 	page.Options("/", controller.Sink)
 
 	page.Get("/games", controller.GetGetAllGames)
+	page.Get("/games/title", controller.GetGameByTitle)
 
 }
