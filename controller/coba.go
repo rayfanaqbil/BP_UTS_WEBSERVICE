@@ -12,9 +12,6 @@ func Homepage(c *fiber.Ctx) error {
 }
 
 func GetGetAllGames(c *fiber.Ctx) error {
-	ps, err := adawong.GetAllGamme()
-	if err != nil {
-		return err
-	}
+	ps := adawong.GetAllDataGames()
 	return c.JSON(ps)
 }
